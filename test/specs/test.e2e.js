@@ -13,14 +13,17 @@ describe("register",()=>{
             
             await actions.Click(Compte_page.CreateNew)
             
-            await actions.SetValue(Register_page.prenom,"dckoaddca")
-            await actions.SetValue(Register_page.nom,"dckoaddca")
-            await actions.SetValue(Register_page.email,"dckoaddca")
-            await actions.SetValue(Register_page.zip,"dckoaddca")
-            await actions.SetValue(Register_page.phone,"dckoaddca")
-            await actions.SetValue(Register_page.city,"dckoaddca")
-            await actions.SetValue(Register_page.pwd,"cnipwaehcpa")
-            await actions.Click(Register_page.button_submit)
+            // await actions.SetValue(Register_page.prenom,"dckoaddca")
+            // console.log("ajajajaak===================================================",await Register_page.prenom.getValue())
+
+            // await actions.SetValue(Register_page.nom,"dckoaddca")
+            // await actions.SetValue(Register_page.email,"dckoaddca")
+            // await actions.SetValue(Register_page.zip,"dckoaddca")
+            // await actions.SetValue(Register_page.phone,"dckoaddca")
+            // await actions.SetValue(Register_page.city,"dckoaddca")
+            await actions.Saisirpwd(Register_page.pwd,"20312321")
+            console.log('================================',Register_page.pwd)
+            // await actions.Click(Register_page.button_submit)
 
             // await assert.assertElementIsDisplayed(User_page.disconnect)
         })

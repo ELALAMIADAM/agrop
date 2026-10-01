@@ -5,7 +5,7 @@ class Register{
     phone= `-android uiautomator:new UiSelector().className("android.widget.EditText").instance(3)`
     zip= `-android uiautomator:new UiSelector().className("android.widget.EditText").instance(4)`
     city= `-android uiautomator:new UiSelector().className("android.widget.EditText").instance(5)`
-    pwd= `-android uiautomator:new UiSelector().className("android.widget.EditText").instance(6)`
+    pwd= `-android uiautomator:new UiSelector().className("android.widget.EditText").instance(7)`
     button_submit= `~Créer mon compte`
 
 }
